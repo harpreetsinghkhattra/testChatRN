@@ -3,6 +3,8 @@ import Palette from './Palette';
 
 //SCREENS
 import Home from './Scenes/Home/Index';
+import Login from './Scenes/Login';
+import Register from './Scenes/Register';
 
 //Drawer
 import DrawerNav from './Routes/DrawerNav';
@@ -57,11 +59,13 @@ import {
 
 
 const AppNavigator = StackNavigator({
-  Home: { screen: DrawerNav },
+  Login: { screen: Login },
+  Register: { screen: Register },
+  Home: { screen: DrawerNav }
 }, {
-    initialRouteName: 'Home',
+    initialRouteName: 'Register',
     navigationOptions: {
-      headerStyle: { backgroundColor: Palette.toolbarBackgroundColor, shadowOpacity: 0, shadowRadius: 0, shadowOffset: { height : 0, width : 0}, elevation : 0 },
+      headerStyle: { backgroundColor: Palette.toolbarBackgroundColor, shadowOpacity: 0, shadowRadius: 0, shadowOffset: { height: 0, width: 0 }, elevation: 0 },
       headerTintColor: '#fff',
     },
     headerMode: 'none',

@@ -1,5 +1,6 @@
 
 export default {
+  appThemeColor: '#293B74',
   white: 'white',
   black: "black",
   offWhite: '#F9FAFA',
@@ -15,7 +16,8 @@ export default {
   sceneBackgroundColour: '#f0f4f7',
   recentSceneListHeaderColor: "#0047AB",
   requestSceneListItemAcceptBtnColor: "#0047AB",
-  toolbarBackgroundColor: "#3271B6",
+  toolbarBackgroundColor: "#293B74",
   online: 'green',
-  offline: 'red'
+  offline: 'red',
+  placholderColor: "#f6f7f2"
 }

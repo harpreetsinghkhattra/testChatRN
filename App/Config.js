@@ -53,5 +53,21 @@ export default {
     pemCertificatePath: 'rsa-example.pem',
     keyName: APP_NAME.toLowerCase(),
     publicKeyAlgorithm: 'rsa'
+  },
+
+  keyboardTypes: {
+    default: "default",
+    number_pad: "number-pad",
+    decimal_pad: "decimal-pad",
+    numeric: "numeric",
+    email_address: "email-address",
+    phone_pad: "phone-pad"
+  },
+  keyboardReturnTypes: {
+    done: "done",
+    go: "go",
+    next: "next",
+    search: "search",
+    send: "send"
   }
 }
